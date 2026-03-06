@@ -1,0 +1,45 @@
+body{
+    font-family: Arial;
+    background:#f4f4f4;
+    padding:40px;
+}
+
+h1{
+    text-align:center;
+}
+
+.container{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+}
+
+.box{
+    background:white;
+    padding:20px;
+    width:300px;
+    border-radius:8px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+button{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+    border:none;
+    background:#28a745;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#218838;
+}
+
+.booked-item{
+    padding:10px;
+    margin:8px 0;
+    background:#ffecec;
+    border-left:5px solid red;
+}
